@@ -69,6 +69,7 @@ New Products
 		</div>
 	</div>
 	</div>
+</div>
 <!-- 
 Clients 
 -->

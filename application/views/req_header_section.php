@@ -6,12 +6,12 @@
 		<div class="container">
 			<div class="alignR">
 				<div class="pull-left socialNw">
-					<a href="#"><span class="icon-twitter"></span></a>
-					<a href="#"><span class="icon-facebook"></span></a>
-					<a href="#"><span class="icon-youtube"></span></a>
-					<a href="#"><span class="icon-tumblr"></span></a>
+					<a href="https://twitter.com" target='_blank'><span class="icon-twitter"></span></a>
+					<a href="https://facebook.com" target='_blank'><span class="icon-facebook"></span></a>
+					<a href="https://youtube.com" target='_blank'><span class="icon-youtube"></span></a>
+					<a href="https://tumblr.com" target='_blank'><span class="icon-tumblr"></span></a>
 				</div>
-				<a class="active" href="<?php echo base_url();?>index.php/home/beranda"> <span class="icon-home"></span> Beranda</a> 
+				<a class="active" href="<?php echo base_url();?>home/beranda"> <span class="icon-home"></span> Beranda</a> 
 				<a href="#"><span class="icon-user"></span> Akun</a> 
 				<a href="register.html"><span class="icon-edit"></span> Daftar </a> 
 				<a href="contact.html"><span class="icon-envelope"></span> Hubungi</a>
@@ -30,7 +30,7 @@ Lower Header Section
 <div class="row">
 	<div class="span4">
 	<h1>
-	<a class="logo" href="<?php echo base_url();?>index.php/home/beranda"><span>Toko Online | BelajarAplikasi</span> 
+	<a class="logo" href="<?php echo base_url();?>home/beranda"><span>Toko Online | BelajarAplikasi</span> 
 		<img src="<?php echo base_url();?>assets/img/logo-bootstrap-shoping-cart.png" alt="toko online">
 	</a>
 	</h1>

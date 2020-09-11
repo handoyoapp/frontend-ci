@@ -73,9 +73,9 @@ New Products
 					echo '<div class="row-fluid">';
 					echo '<li class="span4">
 									<div class="thumbnail">
-									<a href="product_details.html" class="overlay"></a>
-									<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-									<a href="product_details.html"><img src="'.$row->img.'" alt=""></a>
+									<a href="'.base_url().'produk/produk_detail?id='.$row->id_barang.'" class="overlay"></a>
+									<a class="zoomTool" href="'.base_url().'produk/produk_detail?id='.$row->id_barang.'" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+									<a href="'.base_url().'produk/produk_detail?id='.$row->id_barang.'"><img src="'.$row->img.'" alt=""></a>
 									<div class="caption cntr">
 										<p>'.$row->nama_barang.'</p>
 										<p><strong> Rp '.number_format($row->harga,0,',','.').',-</strong></p>
@@ -94,9 +94,9 @@ New Products
 				if ($slice != 1) {
 					echo '<li class="span4">
 									<div class="thumbnail">
-									<a href="product_details.html" class="overlay"></a>
-									<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-									<a href="product_details.html"><img src="'.$row->img.'" alt=""></a>
+									<a href="'.base_url().'produk/produk_detail?id='.$row->id_barang.'" class="overlay"></a>
+									<a class="zoomTool" href="'.base_url().'produk/produk_detail?id='.$row->id_barang.'" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+									<a href="'.base_url().'produk/produk_detail?id='.$row->id_barang.'"><img src="'.$row->img.'" alt=""></a>
 									<div class="caption cntr">
 										<p>'.$row->nama_barang.'</p>
 										<p><strong> Rp '.number_format($row->harga,0,',','.').',-</strong></p>
@@ -118,6 +118,8 @@ New Products
 				$slice++;
 			}
 		?>
+	</div>
+	</div>
 	</div>
 	</div>
 <!-- 

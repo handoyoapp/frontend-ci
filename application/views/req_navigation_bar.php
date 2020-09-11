@@ -13,25 +13,30 @@ Navigation Bar Section
 		<ul class="nav">
 			<?php
 				if ($title=='Beranda') {
-					echo '<li class="active"><a href="'.base_url().'index.php/home/beranda">Beranda	</a></li>';
-					echo '<li class=""><a href="'.base_url().'index.php/home/produk">Produk</a></li>';
-					echo '<li class=""><a href="'.base_url().'index.php/home/pembayaran">Pembayaran</a></li>';
-					echo '<li class=""><a href="'.base_url().'index.php/home/tentang">Tentang Kami</a></li>';
+					echo '<li class="active"><a href="'.base_url().'home/beranda">Beranda	</a></li>';
+					echo '<li class=""><a href="'.base_url().'home/produk">Produk</a></li>';
+					echo '<li class=""><a href="'.base_url().'home/pembayaran">Pembayaran</a></li>';
+					echo '<li class=""><a href="'.base_url().'home/tentang">Tentang Kami</a></li>';
 				} else if ($title=='Produk') {
-					echo '<li class=""><a href="'.base_url().'index.php/home/beranda">Beranda </a></li>';
-					echo '<li class="active"><a href="'.base_url().'index.php/home/produk">Produk</a></li>';
-					echo '<li class=""><a href="'.base_url().'index.php/home/pembayaran">Pembayaran</a></li>';
-					echo '<li class=""><a href="'.base_url().'index.php/home/tentang">Tentang Kami</a></li>';
+					echo '<li class=""><a href="'.base_url().'home/beranda">Beranda </a></li>';
+					echo '<li class="active"><a href="'.base_url().'home/produk">Produk</a></li>';
+					echo '<li class=""><a href="'.base_url().'home/pembayaran">Pembayaran</a></li>';
+					echo '<li class=""><a href="'.base_url().'home/tentang">Tentang Kami</a></li>';
 				} else if ($title=='Pembayaran') {
-					echo '<li class=""><a href="'.base_url().'index.php/home/beranda">Beranda </a></li>';
-					echo '<li class=""><a href="'.base_url().'index.php/home/produk">Produk</a></li>';
-					echo '<li class="active"><a href="'.base_url().'index.php/home/pembayaran">Pembayaran</a></li>';
-					echo '<li class=""><a href="'.base_url().'index.php/home/tentang">Tentang Kami</a></li>';
+					echo '<li class=""><a href="'.base_url().'home/beranda">Beranda </a></li>';
+					echo '<li class=""><a href="'.base_url().'home/produk">Produk</a></li>';
+					echo '<li class="active"><a href="'.base_url().'home/pembayaran">Pembayaran</a></li>';
+					echo '<li class=""><a href="'.base_url().'home/tentang">Tentang Kami</a></li>';
 				} else if ($title=='Tentang') {
-					echo '<li class=""><a href="'.base_url().'index.php/home/beranda">Beranda </a></li>';
-					echo '<li class=""><a href="'.base_url().'index.php/home/produk">Produk</a></li>';
-					echo '<li class=""><a href="'.base_url().'index.php/home/pembayaran">Pembayaran</a></li>';
-					echo '<li class="active"><a href="'.base_url().'index.php/home/tentang">Tentang Kami</a></li>';
+					echo '<li class=""><a href="'.base_url().'home/beranda">Beranda </a></li>';
+					echo '<li class=""><a href="'.base_url().'home/produk">Produk</a></li>';
+					echo '<li class=""><a href="'.base_url().'home/pembayaran">Pembayaran</a></li>';
+					echo '<li class="active"><a href="'.base_url().'home/tentang">Tentang Kami</a></li>';
+				} else {
+					echo '<li class=""><a href="'.base_url().'home/beranda">Beranda </a></li>';
+					echo '<li class=""><a href="'.base_url().'home/produk">Produk</a></li>';
+					echo '<li class=""><a href="'.base_url().'home/pembayaran">Pembayaran</a></li>';
+					echo '<li class=""><a href="'.base_url().'home/tentang">Tentang Kami</a></li>';
 				}
 			?>
 		</ul>
